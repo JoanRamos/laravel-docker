@@ -1,7 +1,12 @@
 # Laravel docker
 ---
-Based on [Digitalocean's laravel docker tutorial]()
+Based on [Digitalocean's laravel docker tutorial](https://www.digitalocean.com/community/tutorials/how-to-install-and-set-up-laravel-with-docker-compose-on-ubuntu-20-04)
 
+## Versions
+- PHP 7.4
+- Nginx 1.15
+- MySQL 5.7
+- Laravel 7
 ## Setup
 ### Bash script
 ```bash
