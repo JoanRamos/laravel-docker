@@ -72,7 +72,7 @@ fi
 echo "------------------------------"
 
 echo "---     Creating images     ---"
-docker-compose up -d --build
+docker-compose --log-level ERROR up -d --build
 
 echo "--- Installing Dependencies ---"
 docker-compose exec app composer create-project --prefer-dist laravel/laravel:^7.0 project
